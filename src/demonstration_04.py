@@ -9,6 +9,8 @@ Examples:
 - find_perimeter(20, 10) ➞ 60
 - find_perimeter(2, 9) ➞ 22
 """
-def find_perimeter(length, width):
-    # Your code here
 
+
+def find_perimeter(length, width):
+    return (length * 2) + (width * 2)
+    # Your code here

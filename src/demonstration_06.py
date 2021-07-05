@@ -15,6 +15,9 @@ Examples:
 - XO("zpzpzpp") ➞ True (Returns True if no x and o)
 - XO("zzoo") ➞ False
 """
-def XO(txt):
-    # Your code here
 
+
+def XO(txt):
+    txt = txt.lower()
+    return txt.count('x') == txt.count("o")
+    # Your code here
